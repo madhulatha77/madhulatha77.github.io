@@ -36,7 +36,7 @@ export const experienceData: ExperienceItem[] = [
   {
     role: "Intern",
     company: "DPDPD Pvt Ltd",
-    period: "January 2026 – Present",
+    period: "January 2026 – June 2026",
     points: [
       "Developed Android applications using Kotlin and Android Studio for patient and partner services.",
       "Built and maintained responsive mobile interfaces with improved UI/UX features.",
