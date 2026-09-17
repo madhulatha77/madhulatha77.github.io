@@ -4,9 +4,10 @@ export interface Project {
   subtitle: string;
   category: string;
   technologies: string[];
-  points: string[];
   summary: string;
+  points: string[];
   githubUrl: string | null;
+  demoUrl?: string | null;
 }
 
 export interface ExperienceItem {

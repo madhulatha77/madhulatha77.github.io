@@ -114,6 +114,18 @@ export const ProjectModal: React.FC<ProjectModalProps> = ({ project, onClose }) 
             <span>Back to Projects</span>
           </button>
 
+          {project.demoUrl && (
+            <a
+              href={project.demoUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn btn-primary btn-sm"
+              aria-label={`View live demo of ${project.title}`}
+            >
+              <span>View Demo</span>
+            </a>
+          )}
+
           {project.githubUrl && (
             <a
               href={project.githubUrl}

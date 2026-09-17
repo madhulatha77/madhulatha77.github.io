@@ -8,7 +8,7 @@ export const personalInfo: PersonalInfo = {
   phone: "8096953898",
   location: "Khajipalem",
   githubLabel: "GitHub",
-  githubUrl: null, // Set your GitHub profile URL here (e.g. "https://github.com/username")
+  githubUrl: "https://github.com/madhulatha77", // Set your GitHub profile URL here (e.g. "https://github.com/username")
   linkedinLabel: "LinkedIn",
   linkedinUrl: null, // Set your LinkedIn profile URL here (e.g. "https://linkedin.com/in/username")
   resumePath: "/resume.pdf"
@@ -50,46 +50,76 @@ export const experienceData: ExperienceItem[] = [
 
 export const projectsData: Project[] = [
   {
+    id: "certificate-mail-merge-agent",
+    title: "Certificate Mail-Merge Agent",
+    subtitle: "AI-Powered Certificate Automation",
+    category: "Agentic AI",
+    technologies: [
+      "Python",
+      "Flask",
+      "Google Antigravity",
+      "OpenPyXL",
+      "python-docx"
+    ],
+    summary:
+      "An automated certificate generation agent that creates personalized certificates from a template and student Excel data, with downloadable PDF and Word outputs.",
+    points: [
+      "Built an automated certificate mail-merge workflow using Python and Flask.",
+      "Processes certificate templates and student data from Excel files.",
+      "Generates personalized certificates while preserving the original certificate design.",
+      "Produces combined PDF and Word documents for easy download.",
+      "Deployed the application as a live web application."
+    ],
+    githubUrl: "https://github.com/madhulatha77/Certificate-Mail-Merge-Agent",
+    demoUrl: "https://certificate-mail-merge-agent.onrender.com/"
+  },
+
+  {
     id: "aido-android-app",
     title: "AIDO – Android Application Development",
     subtitle: "Mobile Application Development",
     category: "Android Development",
     technologies: ["Kotlin", "Android Studio"],
-    summary: "Android mobile application developed using Kotlin and Android Studio featuring optimized performance and user-friendly interfaces.",
+    summary:
+      "Android mobile application developed using Kotlin and Android Studio featuring optimized performance and user-friendly interfaces.",
     points: [
       "Contributed to the development of the AIDO mobile application using Kotlin and Android Studio.",
       "Implemented user-friendly interfaces and optimized application performance.",
       "Assisted in feature integration, debugging, and application maintenance."
     ],
-    githubUrl: null // Set repository URL here when available
+    githubUrl: null
   },
+
   {
     id: "webview-mobile-app",
     title: "WebView-Based Mobile Application",
     subtitle: "Web-to-Mobile Integration",
     category: "Mobile Integration",
     technologies: ["Kotlin", "Android Studio", "WebView"],
-    summary: "Android mobile application utilizing WebView to integrate an existing company website into a seamless mobile platform.",
+    summary:
+      "Android mobile application utilizing WebView to integrate an existing company website into a seamless mobile platform.",
     points: [
       "Developed an Android mobile application using WebView to integrate an existing company website into a mobile platform.",
       "Improved accessibility and mobile user experience through responsive application design.",
       "Worked on navigation handling, page loading optimization, and app performance enhancement."
     ],
-    githubUrl: null // Set repository URL here when available
+    githubUrl: null
   },
+
   {
     id: "power-bi-sales-dashboard",
     title: "Power BI Sales Dashboard",
     subtitle: "Data Analytics & Visualization",
     category: "Data Visualization",
     technologies: ["Power BI", "Data Cleaning", "Data Transformation"],
-    summary: "Interactive business intelligence dashboard designed to analyze sales data with category and shipping insights.",
+    summary:
+      "Interactive business intelligence dashboard designed to analyze sales data with category and shipping insights.",
     points: [
       "Developed an interactive dashboard to analyze sales data.",
       "Created charts and reports for category and shipping analysis.",
       "Performed data cleaning and transformation for accurate visualization."
     ],
-    githubUrl: null // Set repository URL here when available
+    githubUrl: null
   }
 ];
 
